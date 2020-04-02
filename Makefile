@@ -111,6 +111,7 @@ else ifeq "$(ARCH)" "s390x"
 	MQ_DEV_ARCH=s390x
 endif
 # Archive names for IBM MQ Advanced for Developers
+MQ_ARCHIVE_DEV_8.0.0.0=mqadv_dev80_$(MQ_ARCHIVE_DEV_PLATFORM)_$(MQ_DEV_ARCH).tar.gz
 MQ_ARCHIVE_DEV_9.1.0.0=mqadv_dev910_$(MQ_ARCHIVE_DEV_PLATFORM)_$(MQ_DEV_ARCH).tar.gz
 MQ_ARCHIVE_DEV_9.1.1.0=mqadv_dev911_$(MQ_ARCHIVE_DEV_PLATFORM)_$(MQ_DEV_ARCH).tar.gz
 MQ_ARCHIVE_DEV_9.1.2.0=mqadv_dev912_$(MQ_ARCHIVE_DEV_PLATFORM)_$(MQ_DEV_ARCH).tar.gz
